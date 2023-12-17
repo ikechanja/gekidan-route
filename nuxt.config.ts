@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         script: [
           {src: 'https://code.jquery.com/jquery-3.7.1.js',
           body: true},
-          {src: '/_nuxt/assets/js/hum.js',
+          {src: '@/assets/js/hum.js',
           body: true},
           {src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',
           body: true},
@@ -25,11 +25,11 @@ export default defineNuxtConfig({
           body: true},
           {src: 'https://unpkg.com/nprogress@0.2.0/nprogress.js',
           body: true},
-          {src: '/_nuxt/assets/js/gsap.js',
+          {src: '@/assets/js/gsap.js',
           body: true},
-          {src: '/_nuxt/assets/js/slide.js',
+          {src: '@/assets/js/slide.js',
           body: true},
-          {src: '/_nuxt/assets/js/nprogress.js',
+          {src: '@/assets/js/nprogress.js',
           body: true},
         ],
       }
