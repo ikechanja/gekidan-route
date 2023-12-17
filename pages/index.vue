@@ -2,7 +2,7 @@
     <Header />
     <div class="container top-wrapper-inner">
         <section class="top-wrapper">
-            <img class="top-wrapper-img" src="/_nuxt/assets/img/top-wrapper.jpg" />
+            <img class="top-wrapper-img" src="@/assets/img/top-wrapper.jpg" />
             <div class="bg-black top-bg-black">
                 <div>
                     <h1 class="top-impact-1">物語はいつもここから。</h1>
@@ -39,7 +39,7 @@
         <div class="top-kouen-middle">
             <div class="container">
                 <div class="top-kouen-inner">
-                    <img class="top-kouen-img" src="/_nuxt/assets/img/kouen/2023/1.jpg" />
+                    <img class="top-kouen-img" src="@/assets/img/kouen/2023/1.jpg" />
                     <div class="top-kouen-info">
                             <div>
                             <h1 class="center">俺たちは決して<br>自分自身を見放したりしないんだよ…！</h1>
@@ -59,11 +59,11 @@
         </div>
     </section>
     <div class="slider">
-        <div><img src="/_nuxt/assets/img/slider/1.jpg" alt="" /></div>
-        <div><img src="/_nuxt/assets/img/slider/2.jpg" alt="" /></div>
-        <div><img src="/_nuxt/assets/img/slider/3.jpg" alt="" /></div>
-        <div><img src="/_nuxt/assets/img/slider/4.jpg" alt="" /></div>
-        <div><img src="/_nuxt/assets/img/slider/5.jpg" alt="" /></div>
+        <div><img src="@/assets/img/slider/1.jpg" alt="" /></div>
+        <div><img src="@/assets/img/slider/2.jpg" alt="" /></div>
+        <div><img src="@/assets/img/slider/3.jpg" alt="" /></div>
+        <div><img src="@/assets/img/slider/4.jpg" alt="" /></div>
+        <div><img src="@/assets/img/slider/5.jpg" alt="" /></div>
     </div>
     <section class="top-news-wrapper">
         <div class="container">
